@@ -1,0 +1,23 @@
+# Crie uma classe de sua preferência com, no mínimo, uma variável,
+# um método e um incremento. Depois, desenvolva três ou mais objetos para testar o código.
+
+
+classe  Cálculo :
+
+    def  __init__ ( self , v , i : int ):
+        próprio . valor  =  v
+        próprio . incremento  =  eu
+
+    def  Incrementar ( self ):
+        próprio . valor  =  próprio . valor  +  si mesmo . aumento
+
+a  =  Cálculo ( 7 , 2 )
+c1  =  um . Incrementar ()
+
+
+b  =  Cálculo ( 8 , 2 )
+c2  =  b . Incrementar ()
+
+c  =  Cálculo ( 9 , 2 )
+c3  =  c . Incrementar ()
+print ( a . valor , b . valor , c . valor )
